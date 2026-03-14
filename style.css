@@ -1,0 +1,123 @@
+body{
+	background-color: #F4EFEB;
+	color: #1E2749;
+	font-family: Lora;
+	font-size: 19px;
+	font-weight: 400;
+}
+
+h1, h2, h3{
+	font-family: Roboto, sans-serif;
+}
+
+h1{
+	color: #30343F;
+	font-weight: 700;
+	font-size: 44px;
+	text-transform: uppercase;
+}
+
+h2{
+	color: rgb(50, 50, 50);
+	font-weight: 500;
+	font-size: 32px;
+}
+
+a{
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+	color: #1D146E;
+}
+
+a:hover {
+	color: #967846;
+}
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 899px) {
+
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 760px) {
+	
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 650px) {
+
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	
+	.container {
+		width: 400px;
+	}
+}
+
+
+.text-center{
+	text-align: center;
+}
+
+#profile-round{
+	border-radius: 50%;
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 15px 35px rgba(0,0,0,.2)
+	border-radius: 5px;
+	margin: 20px;
+	text-align: center;
+}
+
+
+.btn-forestgreen {
+	background-color: #2F4428;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin-bottom: 40px;
+}
+
+.btn-forestgreen:hover {
+	background-color: #967846;
+	color: white;
+}
+
+.list-horizontal {
+ 	list-style: none;
+ 	padding-left: 0px;
+ }
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 60px;
+	color: #2F4428;
+}
+
+.list-horizontal i:hover {
+	color: #967846;
+}
+
+#box-introduction p {
+	margin-bottom: 40px; 
+}
